@@ -46,8 +46,14 @@ First access the **End User Portal** at the URL above
     * The Agent can guage the seriousness of the situation and set the appropriate SLA and Assign to appropriate Team
     * If it seems a critical issue its best to contact the End User directly for more information
 * **c. Ticket Categorization & Escalation (Agent: John)**
-    * While viewing the ticket as John, change the **SLA Plan** to Sev-A.
-    * Change the **Department** to SysAdmins.
+    * While viewing the ticket as John, change the **SLA Plan** to Sev-A (critical level) by clicking the SLA status. Provide a reason such as `Massive impact as customers can't access online banking`
+    * ![image](https://github.com/user-attachments/assets/6b0d17a7-bf12-4493-99ba-995f8b55c863)
+    * Update the Help Topic if End User didn't choose the best one
+    * ![image](https://github.com/user-attachments/assets/d1d5acd1-5959-4929-a188-b043be750c77)
+    * Set the **Department** to handle the ticket(e.g SysAdmins).
+    * Select approptiate team to handle it (e.g Online Banking)
+    * Note each update is posted in the Ticket Thread
+    * ![image](https://github.com/user-attachments/assets/03d989aa-7957-459b-8835-91b06854ae2b)
     * Add an internal note or reply (e.g., "Escalating to SysAdmins due to critical outage report.").
     * Save Changes.
 * **d. Visibility Check (Agent: John)**
