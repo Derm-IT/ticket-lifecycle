@@ -12,7 +12,7 @@ To gain practical experience with osTicket workflows, understand ticket manageme
 
 * A working osTicket instance (as installed previously).
 * Configured Agents (Jane - SysAdmins, John - Support).
-* Configured Users (Karen, Ken).
+* Configured Users (Karen).
 * Configured Departments (SysAdmins, Support).
 * Configured SLAs (Sev-A, Sev-B, Sev-C).
 * Configured Help Topics (Business Critical Outage, Personal Computer Issues, etc.)
