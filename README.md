@@ -2,11 +2,11 @@
 
 ## Overview
 
-This repository details a lab designed to simulate common help desk ticket lifecycles using osTicket. It explores agent and user roles, permissions based on departments, and connects these actions to real-world IT support practices.
+This repository details steps to simulate common help desk ticket lifecycles using osTicket. It explores agent and user roles, permissions based on departments and teams, and connects these actions to real-world IT support practices.
 
 ## Objective
 
-To gain practical experience with osTicket workflows, understand ticket management procedures, and learn how to handle various support scenarios.
+To gain practical experience with osTicket workflows, understand ticket management procedures, learn how to handle various support scenarios, and communicate with the End User and fellow team
 
 ## Prerequisites
 
