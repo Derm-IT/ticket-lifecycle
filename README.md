@@ -1,4 +1,4 @@
-# osTicket Usage & Workflow Lab
+# osTicket Usage & Workflow 
 
 ## Overview
 
