@@ -50,74 +50,93 @@ First access the **End User Portal** at the URL above
     * ![image](https://github.com/user-attachments/assets/6b0d17a7-bf12-4493-99ba-995f8b55c863)
     * Update the Help Topic if End User didn't choose the best one
     * ![image](https://github.com/user-attachments/assets/d1d5acd1-5959-4929-a188-b043be750c77)
-    * Set the **Department** to handle the ticket(e.g SysAdmins).
-    * Select approptiate team to handle it (e.g Online Banking)
-    * Note each update is posted in the Ticket Thread
+    * Set the **Department** to handle the ticket(e.g Support).
+    * Select approptiate Team or Agent to handle it (e.g Online Banking)
+    * ![image](https://github.com/user-attachments/assets/8f1e8bf7-8726-4657-a4a8-6a79a1714eb0)
+    * Note:: each update is posted in the Ticket Thread
     * ![image](https://github.com/user-attachments/assets/03d989aa-7957-459b-8835-91b06854ae2b)
-    * Add an internal note or reply (e.g., "Escalating to SysAdmins due to critical outage report.").
+    * Tranfer Department to SysAdmins as its high level ticket
+    * ![image](https://github.com/user-attachments/assets/8c3459d6-64a4-401a-8400-9437fc49f52e)
     * Save Changes.
 * **d. Visibility Check (Agent: John)**
-    * After reassigning the ticket to 'SysAdmins', attempt to find or view the ticket again using John's account. Note that John should no longer be able to see or access this ticket.
+    * After transferring the Department to 'SysAdmins', attempt to find or view the ticket again using John's account. Note that John should no longer be able to see or access this ticket (As he is not part of the Department or the Team).
 * **e. Ticket Resolution (Agent: Jane - SysAdmins Dept)**
-    * Log in to the **Agent Panel** as Agent **Jane**.
+    * Now log in to the **Agent Panel** as Agent **Jane** (the SysAdmin we created) to work on the ticket to completion.
     * Locate the escalated ticket in the queues accessible to the 'SysAdmins' department.
-    * Simulate work by adding internal notes and replies to the user.
+    * ![image](https://github.com/user-attachments/assets/f2b38aa4-dc04-4da7-a450-0fd30111cc6c)
+    * Simulate work by adding replies to the user to keep them updated.
+    * Can write internal notes that are only visible to those who have access
+    * ![image](https://github.com/user-attachments/assets/e745df8d-b463-49e7-9236-64947ddcad31)
+    * ![image](https://github.com/user-attachments/assets/e14ecaa3-4887-4ffe-aa9c-8739b95af3fc)
     * Change the ticket status to **Resolved** or **Closed**.
+    * ![image](https://github.com/user-attachments/assets/242deaa2-e577-422d-9b8c-09d8d5d1b73e)
+
 
 ### 2. Ticket Workflow: Scenario 2 - Software Issue (Adobe Upgrade)
 
 * **a. Ticket Creation (End User)**
     * Access the **End User Portal** and create a **New Ticket**.
-    * Select a relevant Help Topic (e.g., "Software Request" or "Personal Computer Issues").
-    * Set the Subject to: "Accounting department needs Adobe upgrade, broken."
+    * Select a relevant Help Topic 
+    * Set the Subject to something like "Adobe not working"
+    * ![image](https://github.com/user-attachments/assets/41ec1bd8-71ed-4755-9a76-3873c9515271)
     * Submit the ticket.
 * **b. Triage & Categorization (Agent: John)**
     * Log in to the **Agent Panel** as **John** and locate the new ticket.
-    * Observe the initial ticket properties.
-    * Set the **SLA Plan** to Sev-B and the **Department** to Support. Save Changes.
+    * Observe the initial ticket properties and provided context
+    * Can contact End User for more information to determine serverity
+    * Determine that 2 people can't access and ask him to have them restart their computers as there was upadtes the day before
+    * Set the **SLA Plan** to Sev-C and the **Department** to Support. Save Changes.
+    * ![image](https://github.com/user-attachments/assets/c4598c02-cbf2-4a0e-ac8e-1e0a067e3818)
+    * Assign it to yourself as you are in the Support team
+    * ![image](https://github.com/user-attachments/assets/600349d6-7875-4673-89ed-9ebf3fabb515)
+    * Post a reply
+    * ![image](https://github.com/user-attachments/assets/8d4210a9-4e69-4c70-8e71-d009b7882d04)
+    * Restart fixed it so provide a reply update
+    * ![image](https://github.com/user-attachments/assets/2edb85c2-138f-4290-bee0-52e9bde939e9)
 * **c. Resolution (Agent: John)**
-    * As John, simulate work on the ticket (e.g., adding notes about checking licenses and scheduling a remote session).
     * Change the ticket status to **Resolved** or **Closed**.
+    * ![image](https://github.com/user-attachments/assets/fd0fe31c-67bd-4a2b-90fc-6a6560696f7a)
 
-### 4. Ticket Workflow: Scenario 3 - Hardware Issue (CFO Laptop)
+### 3. Ticket Workflow: Scenario 3 - Hardware Issue (CFO Laptop)
 
 * **a. Ticket Creation (End User)**
     * Access the **End User Portal** and create a **New Ticket**.
-    * Select a relevant Help Topic (e.g., "Equipment Request" or "Personal Computer Issues").
-    * Set the Subject to: "CFO’s laptop will no longer turn on."
+    * Select a relevant Help Topic (e.g Personal Computer Issues)
+    * Set the Subject to: "CFO cant use laptop" and add context "CFO laptop can't power on. Power button not working. "
     * Submit the ticket.
+    * ![image](https://github.com/user-attachments/assets/0222f2f2-9945-409b-8cdf-73fec9f065e5)
+
 * **b. Triage & Categorization (Agent: John)**
     * Log in to the **Agent Panel** as **John** and locate the new ticket.
     * Observe the initial ticket properties.
-    * Set the **SLA Plan** to Sev-B and the **Department** to Support. Save Changes.
+    * Note that it is the CFO so can set `Priority` to Emergency
+    * Set the **SLA Plan** to Sev-B (not Sev-A as their isn't enough info to determine)
+    * ![image](https://github.com/user-attachments/assets/dc6f848d-f445-488d-b3cd-ea7b7beb22fe)
+    * Assign to self and Support Department
 * **c. Resolution (Agent: John)**
-    * As John, simulate work on the ticket (e.g., noting contact with the CFO and dispatching a technician).
+    * As John, simulate work on the ticket (e.g., noting contact with the CFO and dispatching a technician(or yourself) depends on the company).
+    * Pretend you went to see the computer and that charger was found to be broken and you replaced it
+    * Post a reply as a status update
+    * ![image](https://github.com/user-attachments/assets/9b954521-5be2-4904-9a11-516ccc335e15)
     * Change the ticket status to **Resolved** or **Closed**.
 
-### 5. Exploring Permissions & Department Visibility
 
-* Log in to the **Agent Panel** as **John**.
-* Open one of the tickets John previously resolved.
-* Edit the ticket properties and change the **Department** to SysAdmins. Save Changes. Observe that the ticket is no longer visible to John.
-* Log in to the **Admin Panel**.
-* Navigate to `Admin Panel -> Agents -> Agents -> Select Agent 'John' -> Access`.
-* In the "Extended Access" section, grant **View** access to the SysAdmins Department for John. Save Changes.
-* Log back in to the **Agent Panel** as **John**.
-* Locate the ticket that was moved to SysAdmins. Observe that John can now see the ticket but likely cannot modify it.
+### 4. Final Ticket Resolution
 
-### 6. Final Ticket Resolution
+* Ensure all test tickets created during the project are set to a final state (Resolved or Closed) by logging in as the appropriate agent (Jane for SysAdmins, John for Support, or an Admin).
+* ![image](https://github.com/user-attachments/assets/fbc754b3-10fd-4ebf-a894-854eba86400c)
 
-* Ensure all test tickets created during the lab are set to a final state (Resolved or Closed) by logging in as the appropriate agent (Jane for SysAdmins, John for Support, or an Admin).
+### Takeaways
 
-### 7. Real-World Considerations & Communication
 
-* Most ticketing systems, including osTicket, have email integration. This allows for notifications to be sent to agents and users upon ticket updates, and users can often respond directly via email. Email can also be a method for new ticket creation.
-* In real-world IT support, tickets are created through various channels: the user portal, phone calls (where agents create tickets), chat applications, email, web forms, and even in-person requests. It is crucial to create a ticket for every support interaction, regardless of how minor it seems. This practice enables workload tracking, helps identify recurring issues, builds a knowledge base, ensures accountability, tracks performance metrics (like SLA adherence), and ultimately demonstrates the value of the IT department.
-
-### 8. Conclusion & Continued Practice
-
-This lab provides a fundamental understanding of osTicket workflows. To further your knowledge:
-
-* Explore and configure the email integration features of osTicket.
-* Repeat this lab multiple times, aiming to perform the steps using a basic checklist to build intuition and practical skills.
-* Understand that hands-on practice with tools like osTicket directly contributes to your technical skills, a core competency for various IT roles. Re-doing this lab will solidify your technical ability.
+* Understood the complete ticket lifecycle, from end-user creation to agent resolution, highlighting the importance of each stage in efficient ticket management.
+* Explored different agent roles and permissions, demonstrating how department assignments and extended access settings control agent capabilities.
+* Learned the crucial role of proper ticket categorization (Help Topics, Departments) and SLA assignment for prioritizing and routing tickets effectively.
+* Observed real-world IT support practices, emphasizing clear communication with end-users and the necessity of creating tickets for all support interactions.
+* Gained practical experience with osTicket's core features, including ticket creation, property modification, internal notes, and status updates.
+* Discovered the importance of internal notes for agent communication without end-user visibility.
+* Demonstrated how to escalate tickets to different departments and the impact on agent visibility.
+* Simulated user behavior, recognizing that users may not always select the most appropriate help topics.
+* Contributed to the development of essential technical skills for IT professionals in help desk and ticketing systems.
+* Recognized the importance of metrics and documenting all work.
+* Identified the importance of proper department setup.
